@@ -1,0 +1,18 @@
+{
+  "name": "satellite-hops-game",
+  "version": "1.0.0",
+  "description": "Satellite Hops - A 3D jumping game",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:html": "htmlhint *.html",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["game", "pixi.js", "satellite"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "htmlhint": "^1.1.4"
+  }
+}

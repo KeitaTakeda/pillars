@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "globals": {
+    "title": "writable",
+    "description": "writable",
+    "characters": "writable",
+    "options": "writable",
+    "ticks": "readonly",
+    "difficulty": "readonly",
+    "input": "readonly",
+    "vec": "readonly",
+    "rnds": "readonly",
+    "rnd": "readonly",
+    "color": "readonly",
+    "text": "readonly",
+    "box": "readonly",
+    "rect": "readonly",
+    "char": "readonly",
+    "clamp": "readonly",
+    "play": "readonly",
+    "end": "readonly",
+    "addScore": "readonly",
+    "sqrt": "readonly",
+    "addEventListener": "readonly"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-undef": "warn"
+  }
+}
